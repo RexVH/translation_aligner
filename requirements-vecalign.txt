@@ -1,0 +1,2 @@
+# Requires Microsoft C++ Build Tools on Windows (Desktop development with C++).
+vecalign @ git+https://github.com/thompsonb/vecalign.git@f37262758955133d0c9ef1fdff45eba25842a62c

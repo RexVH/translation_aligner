@@ -1,0 +1,441 @@
+{
+  "synthetic": true,
+  "stage_labels_are_intentions_not_live_MT_guarantees": true,
+  "cases": [
+    {
+      "case": "title",
+      "category": "heading",
+      "fr": [
+        "Revue du dossier de fabrication"
+      ],
+      "en": [
+        "Manufacturing record review"
+      ],
+      "fr_positions": [
+        "body.p1"
+      ],
+      "en_positions": [
+        "body.p1"
+      ]
+    },
+    {
+      "case": "purpose_heading",
+      "category": "heading",
+      "fr": [
+        "Objet"
+      ],
+      "en": [
+        "Purpose"
+      ],
+      "fr_positions": [
+        "body.p2"
+      ],
+      "en_positions": [
+        "body.p2"
+      ]
+    },
+    {
+      "case": "purpose",
+      "category": "semantic",
+      "fr": [
+        "La présente procédure décrit la revue documentaire du dossier de fabrication avant sa transmission au service qualité."
+      ],
+      "en": [
+        "This procedure explains how manufacturing records are checked before they are passed to the quality department."
+      ],
+      "fr_positions": [
+        "body.p3"
+      ],
+      "en_positions": [
+        "body.p3"
+      ]
+    },
+    {
+      "case": "scope_heading",
+      "category": "heading",
+      "fr": [
+        "Champ d’application"
+      ],
+      "en": [
+        "Scope"
+      ],
+      "fr_positions": [
+        "body.p4"
+      ],
+      "en_positions": [
+        "body.p4"
+      ]
+    },
+    {
+      "case": "scope",
+      "category": "fuzzy",
+      "fr": [
+        "Cette procédure s’applique aux dossiers du projet Orionex sur le site Belrive."
+      ],
+      "en": [
+        "This procedure applies to records for the Orionex project at the Belrive site."
+      ],
+      "fr_positions": [
+        "body.p5"
+      ],
+      "en_positions": [
+        "body.p5"
+      ]
+    },
+    {
+      "case": "checks_heading",
+      "category": "heading",
+      "fr": [
+        "Contrôles préliminaires"
+      ],
+      "en": [
+        "Initial checks"
+      ],
+      "fr_positions": [
+        "body.p6"
+      ],
+      "en_positions": [
+        "body.p6"
+      ]
+    },
+    {
+      "case": "exact_batch",
+      "category": "exact_candidate",
+      "fr": [
+        "Vérifier le numéro de lot."
+      ],
+      "en": [
+        "Check the batch number."
+      ],
+      "fr_positions": [
+        "body.p7"
+      ],
+      "en_positions": [
+        "body.p7"
+      ]
+    },
+    {
+      "case": "exact_date",
+      "category": "exact_candidate",
+      "fr": [
+        "Vérifier la date."
+      ],
+      "en": [
+        "Check the date."
+      ],
+      "fr_positions": [
+        "body.p8"
+      ],
+      "en_positions": [
+        "body.p8"
+      ]
+    },
+    {
+      "case": "fuzzy_signature",
+      "category": "fuzzy",
+      "fr": [
+        "Vérifier que toutes les pages du dossier sont datées et signées par l’opérateur."
+      ],
+      "en": [
+        "Check that every page of the record has been dated and signed by the operator."
+      ],
+      "fr_positions": [
+        "body.p9"
+      ],
+      "en_positions": [
+        "body.p9"
+      ]
+    },
+    {
+      "case": "fuzzy_attachment",
+      "category": "fuzzy",
+      "fr": [
+        "Joindre une copie du certificat d’analyse au dossier de fabrication."
+      ],
+      "en": [
+        "Attach a copy of the certificate of analysis to the manufacturing record."
+      ],
+      "fr_positions": [
+        "body.p10"
+      ],
+      "en_positions": [
+        "body.p10"
+      ]
+    },
+    {
+      "case": "semantic_trace",
+      "category": "semantic",
+      "fr": [
+        "Toute correction doit permettre de retrouver l’information initiale et d’identifier son auteur."
+      ],
+      "en": [
+        "The original entry must remain traceable whenever a change is made, and the person responsible for that change must be identifiable."
+      ],
+      "fr_positions": [
+        "body.p11"
+      ],
+      "en_positions": [
+        "body.p11"
+      ]
+    },
+    {
+      "case": "repeat_first",
+      "category": "repetition",
+      "fr": [
+        "Enregistrer le résultat."
+      ],
+      "en": [
+        "Record the result."
+      ],
+      "fr_positions": [
+        "body.p12"
+      ],
+      "en_positions": [
+        "body.p12"
+      ]
+    },
+    {
+      "case": "split",
+      "category": "one_to_many",
+      "fr": [
+        "Vérifier la présence des annexes et consigner toute pièce manquante dans la fiche de suivi."
+      ],
+      "en": [
+        "Check that the attachments are present.",
+        "List any missing documents on the tracking form."
+      ],
+      "fr_positions": [
+        "body.p13"
+      ],
+      "en_positions": [
+        "body.p13",
+        "body.p14"
+      ]
+    },
+    {
+      "case": "source_only",
+      "category": "omission",
+      "fr": [
+        "Pour les dossiers historiques, utiliser la chemise grise conservée dans l’armoire documentaire."
+      ],
+      "en": [],
+      "fr_positions": [
+        "body.p14"
+      ],
+      "en_positions": []
+    },
+    {
+      "case": "review_heading",
+      "category": "heading",
+      "fr": [
+        "Traitement des écarts"
+      ],
+      "en": [
+        "Handling discrepancies"
+      ],
+      "fr_positions": [
+        "body.p16"
+      ],
+      "en_positions": [
+        "body.p16"
+      ]
+    },
+    {
+      "case": "semantic_hold",
+      "category": "semantic",
+      "fr": [
+        "En cas de pièce manquante, suspendre la transmission du dossier jusqu’à sa réception."
+      ],
+      "en": [
+        "Do not forward the record while any required document is still outstanding."
+      ],
+      "fr_positions": [
+        "body.p17"
+      ],
+      "en_positions": [
+        "body.p17"
+      ]
+    },
+    {
+      "case": "merge",
+      "category": "many_to_one",
+      "fr": [
+        "Identifier l’écart dans la fiche de suivi.",
+        "Informer ensuite le responsable qualité."
+      ],
+      "en": [
+        "Log the discrepancy on the tracking form, then notify the quality manager."
+      ],
+      "fr_positions": [
+        "body.p18",
+        "body.p19"
+      ],
+      "en_positions": [
+        "body.p18"
+      ]
+    },
+    {
+      "case": "repeat_second",
+      "category": "repetition",
+      "fr": [
+        "Enregistrer le résultat."
+      ],
+      "en": [
+        "Record the result."
+      ],
+      "fr_positions": [
+        "body.p20"
+      ],
+      "en_positions": [
+        "body.p19"
+      ]
+    },
+    {
+      "case": "target_only",
+      "category": "addition",
+      "fr": [],
+      "en": [
+        "For electronic records, include the repository reference in the handover message."
+      ],
+      "fr_positions": [],
+      "en_positions": [
+        "body.p20"
+      ]
+    },
+    {
+      "case": "numbers",
+      "category": "numeric_equivalence",
+      "fr": [
+        "Le dossier de démonstration comporte 12 annexes et porte la référence BR-204."
+      ],
+      "en": [
+        "The demonstration record contains 12 attachments and is identified by reference BR-204."
+      ],
+      "fr_positions": [
+        "body.p21"
+      ],
+      "en_positions": [
+        "body.p21"
+      ]
+    },
+    {
+      "case": "numeric_trap",
+      "category": "reject_numeric_mismatch",
+      "fr": [
+        "Le registre de démonstration contient 15 entrées."
+      ],
+      "en": [
+        "The demonstration log contains 50 entries."
+      ],
+      "fr_positions": [
+        "body.p22"
+      ],
+      "en_positions": [
+        "body.p22"
+      ]
+    },
+    {
+      "case": "negation_trap",
+      "category": "reject_negation_mismatch",
+      "fr": [
+        "Ne pas archiver le dossier incomplet."
+      ],
+      "en": [
+        "Archive the incomplete record."
+      ],
+      "fr_positions": [
+        "body.p23"
+      ],
+      "en_positions": [
+        "body.p23"
+      ]
+    },
+    {
+      "case": "conflict_a",
+      "category": "translation_conflict",
+      "fr": [
+        "Vérifier le dossier."
+      ],
+      "en": [
+        "Check the record."
+      ],
+      "fr_positions": [
+        "body.p24"
+      ],
+      "en_positions": [
+        "body.p24"
+      ]
+    },
+    {
+      "case": "context",
+      "category": "fuzzy",
+      "fr": [
+        "Après la revue des annexes, effectuer une dernière vérification documentaire."
+      ],
+      "en": [
+        "After reviewing the attachments, carry out a final document check."
+      ],
+      "fr_positions": [
+        "body.p25"
+      ],
+      "en_positions": [
+        "body.p25"
+      ]
+    },
+    {
+      "case": "conflict_b",
+      "category": "translation_conflict",
+      "fr": [
+        "Vérifier le dossier."
+      ],
+      "en": [
+        "Review the file."
+      ],
+      "fr_positions": [
+        "body.p26"
+      ],
+      "en_positions": [
+        "body.p26"
+      ]
+    },
+    {
+      "case": "terms_heading",
+      "category": "heading",
+      "fr": [
+        "Terminologie"
+      ],
+      "en": [
+        "Terminology"
+      ],
+      "fr_positions": [
+        "body.p27"
+      ],
+      "en_positions": [
+        "body.p27"
+      ]
+    }
+  ],
+  "dictionary_pairs": [
+    {
+      "fr": "dossier de fabrication",
+      "en": "manufacturing record"
+    },
+    {
+      "fr": "certificat d’analyse",
+      "en": "certificate of analysis"
+    },
+    {
+      "fr": "numéro de lot",
+      "en": "batch number"
+    },
+    {
+      "fr": "traçabilité",
+      "en": "traceability"
+    },
+    {
+      "fr": "assurance qualité",
+      "en": "quality assurance"
+    }
+  ],
+  "normalization_pairs": []
+}

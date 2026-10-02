@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local documents, diagnostic responses, and generated resource history
+local_data/
+artifacts/
